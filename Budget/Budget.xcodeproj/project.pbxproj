@@ -125,6 +125,7 @@
 			mainGroup = 7CF1A1F02638DCAB00A06154;
 			packageReferences = (
 				7CF1A21126391A9100A06154 /* XCRemoteSwiftPackageReference "iColor" */,
+				7C403E80263A5EF7006AA82D /* XCRemoteSwiftPackageReference "AppIcon" */,
 			);
 			productRefGroup = 7CF1A1FA2638DCAB00A06154 /* Products */;
 			projectDirPath = "";
@@ -353,6 +354,14 @@
 /* End XCConfigurationList section */
 
 /* Begin XCRemoteSwiftPackageReference section */
+		7C403E80263A5EF7006AA82D /* XCRemoteSwiftPackageReference "AppIcon" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/Nonchalant/AppIcon.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 1.0.5;
+			};
+		};
 		7CF1A21126391A9100A06154 /* XCRemoteSwiftPackageReference "iColor" */ = {
 			isa = XCRemoteSwiftPackageReference;
 			repositoryURL = "https://github.com/iSwiftUIHome/iColor.git";
